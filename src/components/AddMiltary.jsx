@@ -48,7 +48,7 @@ const AddMiltary = () => {
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">name</label>
-                                <textarea name="name" id="" className="form-control" value={data.name} onChange={inputHandler}></textarea>
+                                <input type="text" className="form-control" name='name' value={data.name} onChange={inputHandler}/>
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">Dob</label>
@@ -56,15 +56,15 @@ const AddMiltary = () => {
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">address</label>
-                                <input type="text" className="form-control" name='address' value={data.duration} onChange={inputHandler}/>
+                                <textarea name="address" id="" className="form-control" value={data.address} onChange={inputHandler}></textarea>
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">pincode</label>
-                                <input type="text" className="form-control" name='pincode' value={data.venue} onChange={inputHandler}/>
+                                <input type="text" className="form-control" name='pincode' value={data.pincode} onChange={inputHandler}/>
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">state</label>
-                                <input type="text" className="form-control" name='state' value={data.trainerName} onChange={inputHandler}/>
+                                <input type="text" className="form-control" name='state' value={data.state} onChange={inputHandler}/>
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <button className="btn btn-success" onClick={readvalue} >Add</button>
