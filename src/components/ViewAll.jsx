@@ -45,7 +45,6 @@ const ViewAll = () => {
                                         <td>{value.pincode}</td>
                                         <td>{value.state}</td>
                                     </tr>
-
                                     }
                                 )}
                             </tbody>
@@ -53,7 +52,6 @@ const ViewAll = () => {
                     </div>
                 </div>
             </div>
-      
     </div>
   )
 }
