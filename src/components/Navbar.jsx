@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 const Navbar = () => {
     return (
         <div>
@@ -24,6 +25,16 @@ const Navbar = () => {
                                             </li>
                                             <li class="nav-item">
                                                 <Link class="nav-link" to="/view">view</Link>
+                                                <a class="nav-link active" aria-current="page" href="/">Add</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/search">search and delete</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/view">view</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Link</a>
                                             </li>
                                         </ul>
                                     </div>
