@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const Navbar = () => {
     return (
         <div>
             <div>
-                <Navbar/>
                 <div className="container">
                     <div className="row">
                         <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl">
@@ -17,6 +18,13 @@ const Navbar = () => {
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                             <li class="nav-item">
+                                                <Link class="nav-link active" aria-current="page" to="/">Add</Link>
+                                            </li>
+                                            <li class="nav-item">
+                                                <Link class="nav-link" to="/search">s and d</Link>
+                                            </li>
+                                            <li class="nav-item">
+                                                <Link class="nav-link" to="/view">view</Link>
                                                 <a class="nav-link active" aria-current="page" href="/">Add</a>
                                             </li>
                                             <li class="nav-item">
@@ -39,5 +47,4 @@ const Navbar = () => {
         </div>
     )
 }
-
 export default Navbar
